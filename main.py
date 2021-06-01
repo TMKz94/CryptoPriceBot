@@ -21,6 +21,7 @@ def main():
 	api = create_api()
 	api.update_status(tweet)
 	logger.info("Tweet Sent")
+	time.sleep(60)
 
 if __name__ == "__main__":
 	main()
