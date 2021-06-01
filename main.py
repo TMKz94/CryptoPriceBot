@@ -4,7 +4,7 @@ import logging
 import time
 import os
 from price import bitcoin, ethereum, link, solana, litecoin
-
+#This comment is added to push a change for Heroku to update - Disregard
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger()
